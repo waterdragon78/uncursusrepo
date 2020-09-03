@@ -4,7 +4,7 @@ echo "Updating Repo..."
 
 echo "Cleaning Up Previous Build..."
 rm -rf dists
-echo "Done"
+echo "Done. Downloading Resources..."
 
 mkdir tmpbingner
 
