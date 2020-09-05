@@ -15,6 +15,7 @@ for deb in $(grep "com.ex.substitute_0.1.15_iphoneos-arm\|com.saurik.substrate.s
 done
 rm tmpbingner/Packages
 
+echo "Done. Generating Dists Folder..."
 for dist in iphoneos-arm64/uncursus; do
 	arch=iphoneos-arm
 	binary=binary-${arch}
@@ -30,7 +31,7 @@ for dist in iphoneos-arm64/uncursus; do
 	
 	sed -i 's+./tmpbingner+https://apt.bingner.com/debs/1443.00/.+g' dists/${dist}/main/${binary}/Packages
     
-    echo "Packing up The Package File..."
+    echo "Done. Packing up The Package File..."
     xz -c9 dists/${dist}/main/${binary}/Packages > dists/${dist}/main/${binary}/Packages.xz
     zstd -q -c19 dists/${dist}/main/${binary}/Packages > dists/${dist}/main/${binary}/Packages.zst
     gzip -c9 dists/${dist}/main/${binary}/Packages > dists/${dist}/main/${binary}/Packages.gz
