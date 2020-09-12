@@ -84,16 +84,16 @@ Name: LZMA Utils (Dummy)
 
 Package: ncurses
 Architecture: iphoneos-arm
-Version: 1:0
+Version: 1:1
 Section: System
 Maintainer: Yaya4
-Depends: ncurses-bin, ncurses-term, libncursesw6
-Filename: pool/main/iphoneos-arm64/ncurses.deb
+Depends: ncurses-term, libncursesw6
+Filename: pool/main/iphoneos-arm64/ncurses-meta.deb
 Size: 708
-MD5sum: 5bfe271998fb2a237079112beac3af23
-SHA1: 852cdc1c4d0272b490d6d3d51c4e35e756f91b05
-SHA256: b188d52c03017d3964ecd7bace059d3c4ba2107ca2cd184d15ba4c078862b9d0
-SHA512: cf03b3d597b0bab4ac74ffb812e3f494adf367892d12c39471221d4569c3fbee71173ff7a5c60c3cdd520406a79e329db87c2efe955727f017e76b8586b54344
+MD5sum: 03c8d153be78d9bd755cb316700fb189
+SHA1: 70143bd696d37d5929518e54955505f59cd3a9c4
+SHA256: 3eb7b656264485e647c30874de0fa71be8f84e1f5f94d3ebcbbd431c92edec30
+SHA512: f90b405cf316a63fe804707b4ccbc1aede47daa0b85b2e3ef1e5d8c0397a2f5254d83ac2a6d3bd937475af168fa5d25cef31abcb03942d8eb4a7035644611a62
 Description: New Curses Meta Package
 Name: New Curses (Meta)
 Author: Yaya4
