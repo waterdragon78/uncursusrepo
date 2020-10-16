@@ -49,6 +49,22 @@ SHA512: 0f6f2d485fb0af62157c3af3f111f05911e909007cfa31a07d548cdfd5f0f31a76902f37
 Description: Represents all dummy packages.
 Name: Essential Dummy
 
+Package: libidn2
+Architecture: iphoneos-arm
+Version: 1:0
+Priority: required
+Section: Libraries
+Maintainer: Yaya4
+Installed-Size: 0
+Filename: pool/main/iphoneos-arm64/libidn2.deb
+Size: 704
+MD5sum: a2eb695a59165ce492c568dc4140f0d1
+SHA1: 8f04385e24bc17d247eab8af08104e171451641b
+SHA256: 23e02517eebc95d89457ad86d3cea3a6255d208eada9072e74c27ac6f3a738c5
+SHA512: 25cd34c2a2a4d7af817f78dae7048d9da326d923d08b69fb5de9cf73648c6686ee6a75f53ae94094df854115f7d69013f52f42bd11d351382b969c3c4184425a
+Description: bingner libind2 dummy
+Name: libind2
+
 Package: libssl1.0
 Architecture: iphoneos-arm
 Version: 1:2
